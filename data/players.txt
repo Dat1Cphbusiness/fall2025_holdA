@@ -1,4 +1,4 @@
-Signe
-Tess
-Peter
-Tine
+Signe,10
+Tess,8
+Peter,6
+Tine,12
