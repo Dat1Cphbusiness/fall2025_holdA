@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Game{
+-String name
+-int maxPlayers
+-List<Player> players
++Game(String name, int maxPlayers)
++void registerPlayer()
++void displayPlayers()
+-createPlayer()
+}
+
+class Player{
+-String name
+-int score
++Player(String name)
++String toString()
++void addToScore(int points)
+}
+
+Game *--Player
+
+
+@enduml

@@ -30,8 +30,9 @@ public class Main {
 
             FileWriter filewriter = new FileWriter("data/players.txt");
             for(Player pl: players){
-                filewriter.write(pl.getName() + "," + pl.getScore());
+                filewriter.write(pl.getName() + "," + pl.getScore() + "\n");
             }
+            filewriter.close();
 
 
         }
