@@ -7,16 +7,20 @@ import java.util.Scanner;
 
 public class Cafe {
     private ArrayList<String> coffeeMenu;
+
     public Cafe() {
+
         coffeeMenu = new ArrayList<>();
     }
     public ArrayList<String> getCoffeeMenu() {
+
         return coffeeMenu;
     }
     public void loadMenuData() {
         try {
-            File file = new File("coffees.txt");
+            File file = new File("data/coffees.txt");
             Scanner scan = new Scanner(file);
+          //  scan = scan.skip("");
 
             while (scan.hasNextLine()) {
                 coffeeMenu.add(scan.nextLine());
