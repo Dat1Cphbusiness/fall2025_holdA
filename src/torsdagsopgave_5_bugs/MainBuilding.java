@@ -27,7 +27,7 @@ public class MainBuilding {
 
     public static int countLampsInBuilding(Building building) {
         int totalLamps = 0;
-        for (int i = 0; i <= building.getRooms().size(); i++) {
+        for (int i = 0; i < building.getRooms().size(); i++) {
             totalLamps += building.getRooms().get(i).getNumberOfLamps();
         }
         return totalLamps;

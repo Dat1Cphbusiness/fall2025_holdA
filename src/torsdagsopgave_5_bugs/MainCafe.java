@@ -7,7 +7,7 @@ public class MainCafe {
         cafe.loadMenuData();
 
         System.out.println("Coffee menu:");
-        for (int i = 0; i <= cafe.getCoffeeMenu().size(); i++) {
+        for (int i = 0; i < cafe.getCoffeeMenu().size(); i++) {
             System.out.println("- " + cafe.getCoffeeMenu().get(i));
         }
     }

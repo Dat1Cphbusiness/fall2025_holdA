@@ -14,7 +14,7 @@ public class Room {
     }
 
     public void setNumberOfLamps(int numberOfLamps) {
-        numberOfLamps = numberOfLamps;
+        this.numberOfLamps = numberOfLamps;
     }
 
     public int getNumberOfWindows() {

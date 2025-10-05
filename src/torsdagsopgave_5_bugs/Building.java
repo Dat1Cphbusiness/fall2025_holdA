@@ -7,7 +7,7 @@ public class Building {
     private int numberOfFloors;
 
     public Building(ArrayList<Room> rooms, int numberOfFloors) {
-        rooms = rooms;
+        this.rooms = rooms;
         this.numberOfFloors = numberOfFloors;
     }
 

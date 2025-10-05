@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Cafe {
-    private ArrayList<String> coffeeMenu;
+    private ArrayList<String> coffeeMenu = new ArrayList<>();
 
     public ArrayList<String> getCoffeeMenu() {
         return coffeeMenu;
