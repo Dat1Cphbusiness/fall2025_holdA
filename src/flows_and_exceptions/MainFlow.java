@@ -4,8 +4,8 @@ public class MainFlow {
 
     public static void main(String[] args) {
         Flows flows = new Flows();
-        //   System.out.println("flows.methodA(\"Hello, world\");");
-        //   flows.methodA("Hello, world");
+        System.out.println("flows.methodA(\"Hello, world\");");
+        flows.methodA("Hello, world");
         System.out.println("flows.methodA(\"start\");");
         flows.methodA("start");
         System.out.println("flows.methodB(\"Hello, world\");");

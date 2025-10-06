@@ -11,7 +11,7 @@ public class Main {
 
     public static  void main(String[] args) {
         ArrayList<Player> players = new ArrayList<>();
-        File file = new File("data/players.txt");
+        File file = new File("data/tuesdaysgame.txt");
         try {
             Scanner scanner = new Scanner(file);
             while(scanner.hasNext()){
@@ -28,7 +28,7 @@ public class Main {
             Player p2 = players.get(1);
             p2.setName("Hans");
 
-            FileWriter filewriter = new FileWriter("data/players.txt");
+            FileWriter filewriter = new FileWriter("data/tuesdaysgame.txt");
             for(Player pl: players){
                 filewriter.write(pl.getName() + "," + pl.getScore() + "\n");
             }
