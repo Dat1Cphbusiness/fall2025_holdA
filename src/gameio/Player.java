@@ -12,7 +12,9 @@ public class Player {
 
     public Player (String name, int score){
         this.name = name;
-        this.score = score;
+        if(score >= 0)
+            this.score = score;
+        else throw new IllegalArgumentException("Score can not be negative");
     }
     public void addToScore(int points){
         score += points;

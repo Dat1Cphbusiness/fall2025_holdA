@@ -23,9 +23,23 @@ public class Game {
         ui = new TextUI();
     }
 
-    public void loadGame(String name){
-
+    public void loadGame2(String name) throws FileNotFoundException{
         File file = new File(name + ".txt");
+        Scanner scanner = null;
+        scanner = new Scanner(file);
+        while(scanner.hasNext()) {
+            String result = scanner.nextLine();
+            String[] tokens = result.split(",");
+            String playername = tokens[0];
+            int score = Integer.parseInt(tokens[1]);
+            Player p = new Player(playername, score);
+            players.add(p);
+        }
+    }
+
+
+    public void loadGame(String name){
+        File file = new File("data/" + name + ".txt");
         Scanner scanner = null;
         try {
             scanner = new Scanner(file);
@@ -38,8 +52,9 @@ public class Game {
                 players.add(p);
             }
         } catch (FileNotFoundException e) {
-            String input = ui.promptText("Spillet findes ikke. Prøv igen");
+           String input = ui.promptText("Spillet findes ikke. Prøv igen");
             loadGame(input);
+
         }
 
 
