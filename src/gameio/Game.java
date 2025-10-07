@@ -51,7 +51,10 @@ public class Game {
                 Player p = new Player(playername, score);
                 players.add(p);
             }
-        } catch (FileNotFoundException e) {
+        } catch(NumberFormatException e){
+            ui.displayMessage("data i filen er i forkert format");
+        }
+        catch (FileNotFoundException e) {
            String input = ui.promptText("Spillet findes ikke. Prøv igen");
             loadGame(input);
 
