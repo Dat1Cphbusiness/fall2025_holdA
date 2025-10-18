@@ -105,7 +105,7 @@ public class Smoothie extends Beverage {
 ```
 ---
 
-## Del 2 - Testklasser
+## Del 3 - Testklasser
 
 Lav en testklasse, der afprøver de forskellige drikkevarer:
 
