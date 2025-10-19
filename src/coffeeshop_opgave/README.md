@@ -1,4 +1,4 @@
-# Opgave: Barista Manager med abstrakte klasser
+# Opgave: Barista Manager med abstrakt klasse
 
 
 Efter denne øvelse skal du kunne:
