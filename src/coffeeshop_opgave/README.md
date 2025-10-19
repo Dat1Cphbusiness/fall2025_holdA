@@ -107,7 +107,7 @@ public class Smoothie extends Beverage {
 
 ## Del 3 - Testklasser
 
-Lav en testklasse, der afprøver de forskellige drikkevarer:
+Lav en testklasse, der afprøver de forskellige drikkevarer (husk også at teste prisberegning):
 
 ```java
 // Main
