@@ -1,4 +1,4 @@
-# ☕ Opgave: Barista Manager med abstrakte klasser
+# Opgave: Barista Manager med abstrakte klasser
 
 
 Efter denne øvelse skal du kunne:
@@ -9,7 +9,7 @@ Efter denne øvelse skal du kunne:
 
 ---
 
-## 🧩 Scenarie
+## Scenarie
 
 Forestil dig, at du arbejder som programmør for en nyopstartet **café**, der ønsker et system til at håndtere ordrer på drikkevarer.  
 
@@ -122,7 +122,7 @@ public class Main {
 }
 ```
 
-### 💬 Spørgsmål til refleksion
+### Spørgsmål til refleksion
 
 - Hvorfor kan vi ikke lave `new Beverage(...)`?  
 - Hvad sker der, hvis en subklasse glemmer at implementere `calculatePrice()`?
@@ -131,7 +131,7 @@ public class Main {
 
 ---
 
-### ⚡ Ekstra udfordringer, hvis du har tid tilovers ...
+### Ekstra udfordringer, hvis du har tid tilovers ...
 
 1. Tilføj en tredje drikkevare, fx `Tea`, der giver rabat for “refill”.
 2. Lav en ArrayList<Beverage> og loop gennem alle drikkevarer
