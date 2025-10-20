@@ -91,16 +91,7 @@ En smoothie kan have tilsat proteinpulver, som koster ekstra.
 
 ```java
 public class Smoothie extends Beverage {
-    private boolean addProtein;
-
-    public Smoothie(String name, int sizeMl, double pricePerMl, boolean addProtein) {
-       // TODO
-    }
-
-    @Override
-    public double calculatePrice() {
-       // TODO
-    }
+  // TODO
 }
 ```
 ---
