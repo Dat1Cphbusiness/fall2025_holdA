@@ -40,6 +40,6 @@ public class RessourceHaandtering {
 
     public void scanAndThrow(String input) throws FileNotFoundException{
         Scanner scanner = new Scanner(new File(input));
-               
+
     }
 }

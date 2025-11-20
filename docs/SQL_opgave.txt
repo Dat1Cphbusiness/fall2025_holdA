@@ -1,0 +1,63 @@
+Opgaver med WHERE
+
+Opgave 1: Find titlen på alle albums der blev udgivet i 1998
+
+Opgave 2: Find alle oplysninger om brugeren med username 'jazzfan_anna'
+
+Opgave 3: Find song_id og title på alle sange der tilhører album med album_id 6
+
+Opgave 4: Find name på alle playlists der tilhører bruger med user_id 2
+
+Opgave 5: Find titlerne på alle albums
+
+Opgave 6: Find username på brugeren med user_id 4
+
+
+Opgaver med ORDER BY
+
+Opgave 7: Vis alle albums sorteret efter releaseyear (ældste først)
+
+Opgave 8: Vis alle brugere sorteret alfabetisk efter username
+
+Opgave 9: Vis titel og længde på alle sange fra album med album_id 3 sorteret efter title
+
+
+Opgaver med AND
+
+Opgave 10: Find alle albums der blev udgivet i 1971 og hvor titlen starter med 'B' (hint: kig på LIKE)
+
+Opgave 11: Find alle sange der tilhører album_id 5 og varer kortere end 200 sekunder
+
+Opgave 12: Find brugernavn på alle brugere som har PREMIUM medlemsskab og som blev medlem efter 2021
+
+
+Opgaver med OR
+
+Opgave 13: Find alle albums der blev udgivet i enten 1984 eller 2015
+
+Opgave 14: Find brugernavn på alle brugere der har BASIC eller PREMIUM medlemsskab
+
+Opgave 15: Find titel og album_id på alle sange der tilhører enten album_id 1 eller album_id 10
+
+
+Opgave med INSERT INTO
+
+Opgave 16: Tilføj en ny bruger med username 'indie_lover', med BASIC medlemskab. Brugeren er medlem siden 2025.
+Find selv på et password.
+
+Opgave med UPDATE
+
+Opgave 17: Opdater brugeren blues_bobby's password til 'bellbottom'
+
+Opgave med DELETE
+
+Opgave 18: Slet brugeren med user_id 5
+
+
+EKSTRA: Opgaver med JOIN
+
+Opgave 19: Find alle sange med deres album titel (brug JOIN mellem Songs og Albums)
+
+Opgave 20: Find alle playlists med brugernavnet på ejeren (brug JOIN mellem Playlists og Users)
+
+Opgave 21: Find alle sange i genre 'Rock' med sangens titel (brug JOIN mellem Genres_Songs og Songs)
