@@ -10,22 +10,12 @@ public class Database {
         this. url = url;
     }
 
-    public Connection connect(){
-        try {
-            Connection connection = DriverManager.getConnection(url);
-            return connection;
-        } catch (SQLException e) {
-            System.out.println("Fejl ved connection");
-        }
-        return null;
-    }
-
-    public User getUserById(int id){
+   public User getUserById(int id){
         User user = null;
         String sql = "SELECT * FROM Users WHERE user_id = " + id;
-        try (Connection connection = DriverManager.getConnection(url)){
+        try (Connection connection = DriverManager.getConnection(url);
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(sql);
+            ResultSet resultSet = statement.executeQuery(sql)){
             if(resultSet.next()){
                 String name = resultSet.getString("username");
                 String membership = resultSet.getString("membership");
