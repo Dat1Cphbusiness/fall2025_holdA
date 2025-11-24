@@ -1,4 +1,4 @@
-package beverages;
+package CoffeeShop_solution.beverages;
 
 // Abstrakt superklasse
 public abstract class Beverage {

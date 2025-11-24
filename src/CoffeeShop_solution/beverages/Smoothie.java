@@ -1,4 +1,4 @@
-package beverages;
+package CoffeeShop_solution.beverages;
 
 // Subklasse 2
 public class Smoothie extends Beverage {

@@ -1,4 +1,4 @@
-package clinic;
+package PetClinic.clinic;
 
 public class Dog extends Pet {
     private boolean vaccinated;

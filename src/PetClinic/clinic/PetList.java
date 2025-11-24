@@ -1,4 +1,4 @@
-package clinic;
+package PetClinic.clinic;
 
 import java.util.ArrayList;
 

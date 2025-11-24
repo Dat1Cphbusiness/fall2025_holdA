@@ -1,7 +1,9 @@
-import beverages.Beverage;
-import beverages.Coffee;
-import beverages.Smoothie;
-import beverages.Tea;
+package CoffeeShop_solution;
+
+import CoffeeShop_solution.beverages.Beverage;
+import CoffeeShop_solution.beverages.Coffee;
+import CoffeeShop_solution.beverages.Smoothie;
+import CoffeeShop_solution.beverages.Tea;
 import java.util.ArrayList;
 
 

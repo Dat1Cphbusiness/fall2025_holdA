@@ -1,4 +1,4 @@
-package beverages;
+package CoffeeShop_solution.beverages;
 
 public class Tea extends Beverage {
     private boolean isRefill;

@@ -1,4 +1,4 @@
-package clinic;
+package PetClinic.clinic;
 
 public class Cat extends Pet {
     private boolean earTattooed;   //en boolean til øremærke

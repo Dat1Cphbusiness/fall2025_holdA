@@ -1,7 +1,9 @@
-import clinic.Cat;
-import clinic.Dog;
-import clinic.Pet;
-import clinic.PetList;
+package PetClinic;
+
+import PetClinic.clinic.Cat;
+import PetClinic.clinic.Dog;
+import PetClinic.clinic.Pet;
+import PetClinic.clinic.PetList;
 
 import java.util.ArrayList;
 
