@@ -38,4 +38,13 @@ public class Album {
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
     }
+
+    @Override
+    public String toString() {
+        return "Album{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", releaseYear=" + releaseYear +
+                '}';
+    }
 }
