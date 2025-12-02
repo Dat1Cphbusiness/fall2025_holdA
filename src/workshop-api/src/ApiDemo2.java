@@ -11,9 +11,9 @@ public class ApiDemo2 {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         HttpClient client = HttpClient.newHttpClient();
+        
+        String url = "https://bored-api.appbrewery.com/random";
 
-        //String url = "https://bored-api.appbrewery.com/random";
-        String url = "https://api.chucknorris.io/jokes/random";
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
                 .GET()
@@ -27,6 +27,6 @@ public class ApiDemo2 {
         //Gson librabry converts JSON to object that Java understands
         System.out.println("\nGson: ");
         JsonObject json = JsonParser.parseString(response.body()).getAsJsonObject();
-        System.out.println("Joke: " + json.get("value").getAsString());
+        System.out.println("Activity: " + json.get("activity").getAsString());
     }
 }
