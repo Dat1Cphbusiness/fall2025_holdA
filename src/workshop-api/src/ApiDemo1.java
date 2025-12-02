@@ -20,7 +20,7 @@ public class ApiDemo1 {
         // Send request amd get response as string
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println("Statuskode: " + response.statusCode());
-        System.out.println("Raw JSON response!:");
+        System.out.println("Raw JSON response:");
         System.out.println(response.body());     
     }
 }
