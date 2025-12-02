@@ -16,7 +16,7 @@ public class MovieApp {
         System.out.print("Indtast film ID (fx 550 for Fight Club): ");
         int id = Integer.parseInt(sc.nextLine());
 
-        String apiKey = "b88ef195e07424c2d91099e4f7a9372e"; // ← indsæt TMDB nøgle her
+        String apiKey = "your key"; // ← indsæt TMDB nøgle her
 
         String url = "https://api.themoviedb.org/3/movie/" + id +
                 "?api_key=" + apiKey + "&language=en-US";
