@@ -13,8 +13,7 @@ public class PokeAPIDemo2 {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner sc = new Scanner(System.in);
         System.out.print("Indtast Pokémon-navn: ");
-        //String name = sc.nextLine().toLowerCase();
-        String name = "absol";
+        String name = sc.nextLine().toLowerCase();
         String url = "https://pokeapi.co/api/v2/pokemon/" + name;
 
         // søg efter pokemon
