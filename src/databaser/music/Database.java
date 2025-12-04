@@ -10,7 +10,7 @@ public class Database {
         this. url = url;
     }
 
-    public ArrayList<Album> getAlbumsByYear(int year){
+    public ArrayList<Album> getAlbuAlbums_PlaylistsmsByYear(int year){
         ArrayList<Album> albums = new ArrayList<>();
         String sql = "SELECT album_id, title FROM Albums WHERE releaseyear = " + year;
         try(Connection connection = DriverManager.getConnection(url);

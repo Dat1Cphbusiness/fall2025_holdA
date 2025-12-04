@@ -271,6 +271,7 @@ public class Database {
             }
         } catch (SQLException e) {
             System.out.println("Vi kan ikke få fat i databasen");
+            System.out.println(e.getMessage());
         }
         return users;
     }

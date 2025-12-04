@@ -19,6 +19,10 @@ public class Building {
         this.rooms = rooms;
     }
 
+    public void addRoom(Room room){
+        this.rooms.add(room);
+    }
+
     public int getNumberOfFloors() {
         return numberOfFloors;
     }
